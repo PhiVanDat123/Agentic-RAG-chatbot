@@ -30,6 +30,7 @@ Key components include:
 ```bash
 git clone https://github.com/PhiVanDat123/Agentic-RAG-chatbot.git
 cd Agentic-RAG-chatbot
+```
 
 ## **Install Dependencies**
 
@@ -37,25 +38,26 @@ Ensure you have **Python 3.8+** installed. Then, install the required packages:
 
 ```bash
 pip install -r requirements.txt
+```
 
-Set Up Environment Variables
+## **Set Up Environment Variables**
 
-Create a .env file and configure the necessary environment variables, such as API keys for search services.
+Create a .env file and configure the necessary environment variables, such as **API keys** for search services.
 
-Run the Application
+## **Run the Application**
 
 Start the backend and frontend services:
 
 python run_backend.py
 python frontend.py
 
-Usage
+## **Usage**
 
 Once the application is running, navigate to http://localhost:5000
  in your web browser.
 Enter your query in the chat interface, and the chatbot will process it using RAG and provide a response.
 
-Contributing
+## **Contributing**
 
 Contributions are welcome! To contribute:
 
@@ -67,8 +69,8 @@ Commit your changes with clear messages.
 
 Push to your fork and create a pull request.
 
-License
+## **License**
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the **MIT License**. See the LICENSE file for details.
 
-For more detailed information and updates, please refer to the GitHub repository.
+For more detailed information and updates, please refer to the **GitHub repository**.
