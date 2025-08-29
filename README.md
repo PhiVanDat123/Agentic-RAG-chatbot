@@ -1,35 +1,41 @@
-Agentic RAG Chatbot Overview
+# **Agentic RAG Chatbot Overview**
 
-The Agentic RAG Chatbot is a hybrid AI assistant that integrates Retrieval-Augmented Generation (RAG) with knowledge base search and live web search. This combination enables the chatbot to deliver accurate, context-aware responses across various domains.
-GitHub
+The **Agentic RAG Chatbot** is a hybrid AI assistant that integrates **Retrieval-Augmented Generation (RAG)** with knowledge base search and live web search.  
+This combination enables the chatbot to deliver accurate, context-aware responses across various domains.  
 
-Features
+**GitHub:** [https://github.com/PhiVanDat123/Agentic-RAG-chatbot](https://github.com/PhiVanDat123/Agentic-RAG-chatbot)
 
-Hybrid Search Capabilities: Combines internal knowledge base search with live web search to provide comprehensive answers.
+---
 
-Context-Aware Responses: Utilizes RAG to generate responses that consider the context of the query.
+## **Features**
 
-Multi-Source Information Retrieval: Fetches and processes information from multiple sources to enhance response accuracy.
+- **Hybrid Search Capabilities:** Combines internal knowledge base search with live web search to provide comprehensive answers.  
+- **Context-Aware Responses:** Utilizes RAG to generate responses that consider the context of the query.  
+- **Multi-Source Information Retrieval:** Fetches and processes information from multiple sources to enhance response accuracy.  
 
-Architecture
+---
 
-The system is designed with a modular architecture to ensure scalability and maintainability. Key components include:
+## **Architecture**
 
-Backend: Handles the core logic, including RAG processing and integration with search APIs.
+The system is designed with a **modular architecture** to ensure scalability and maintainability.  
+Key components include:
 
-Frontend: Provides a user interface for interacting with the chatbot.
+- **Backend:** Handles the core logic, including RAG processing and integration with search APIs.  
+- **Frontend:** Provides a user interface for interacting with the chatbot.  
+- **Configuration:** Manages settings for search APIs, RAG parameters, and other system configurations.  
 
-Configuration: Manages settings for search APIs, RAG parameters, and other system configurations.
+## **Installation**
 
-Installation
-Clone the Repository
+### **Clone the Repository**
+```bash
 git clone https://github.com/PhiVanDat123/Agentic-RAG-chatbot.git
 cd Agentic-RAG-chatbot
 
-Install Dependencies
+## **Install Dependencies**
 
-Ensure you have Python 3.8+ installed. Then, install the required packages:
+Ensure you have **Python 3.8+** installed. Then, install the required packages:
 
+```bash
 pip install -r requirements.txt
 
 Set Up Environment Variables
@@ -46,19 +52,20 @@ python frontend.py
 Usage
 
 Once the application is running, navigate to http://localhost:5000
- in your web browser. Enter your query in the chat interface, and the chatbot will process it using RAG and provide a response.
+ in your web browser.
+Enter your query in the chat interface, and the chatbot will process it using RAG and provide a response.
 
 Contributing
 
 Contributions are welcome! To contribute:
 
-Fork the Repository.
+Fork the repository.
 
-Create a New Branch for your feature or fix.
+Create a new branch for your feature or fix.
 
-Commit Your Changes with clear messages.
+Commit your changes with clear messages.
 
-Push to Your Fork and create a Pull Request.
+Push to your fork and create a pull request.
 
 License
 
